@@ -5,22 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style/style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         <title>Portfolio</title>
     </head>
     <body>
-        <nav class="navbar">
-            <div class ="max-width">
-                <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
-                <ul class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fa fa-bars" id="btn"></i>
+            <i class="fa fa-times" id="cancel"></i>
+        </label>
+        <div class="sidebar">
+            <header>Thinh Phan</header>
+            <ul>
+                <li><a href="#"><i class="fas fa-qrcode"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i>About me</a></li>
+                <li><a href="#"><i class="fas fa-stream"></i>Projects</a></li>
+                <li><a href="#"><i class="fas fa-sliders-h"></i>Skills</a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
         <section class="home" id="home">
             <div class="max-width">
                 <div class="home-content">
@@ -29,8 +32,8 @@
                     <div class="text-3">And I am a <span>Software Developer</span></div>
                 </div>
             </div>
-        </section>  
-
+        </section> 
+        
 
     </body>
 </html>

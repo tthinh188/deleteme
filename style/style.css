@@ -61,8 +61,8 @@
 
 .home {
     display: flex;
-    /* background: url("../images/back_ground.jpg") no-repeat center;
-    background-size: 100%; */
+    /* background: url("../images/work3.jpg") no-repeat center; */
+    /* background-size: 100%; */
     background-color: black;
     height: 100vh;
     color: white;
@@ -96,6 +96,8 @@
 
 .about {
     display: flex;
-    background-color: #5b78c7;
-    height: 60vh;
+    background: url("../images/work2.jpg") no-repeat top;
+    background-size: 95%;
+    background-color: gray;
+    height: 100vh;
 }

@@ -1,106 +1,69 @@
-body {
-    font-family: 'Roboto', sans-serif;
-}
 * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
     text-decoration: none;
 }
 
-.sidebar {
+.max-width {
+    max-width: 1560px;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.navbar {
     position: fixed;
-    left: -250px;
-    width: 250px;
-    height: 100%;
-    background: #042331;
-}
-
-.sidebar header {
-    font-size: 22px;
-    color: wheat;
-    text-align: center;
-    line-height: 70px;
-    background: #063146;
-    user-select: none;
-}
-
-.sidebar ul a {
-    display: block;
-    height: 100%;
     width: 100%;
-    line-height: 65px;
-    font-size: 20px;
-    color: white;
-    padding-left: 40px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(255,255,255,.1);
-    border-bottom: 1px solid rgba(255,255,255,.1);
-    transition: .5s;
+    padding: 15px 0;
+    /* background: crimson; */
+    font-family: 'Roboto', sans-serif;
+    transition: all 1s ease;
 }
 
-ul li:hover a{
-    padding-left: 50px;
-    color: crimson;
-    font-weight: 500;
+.navbar.sticky{
+    padding: 5px 0;
+    background: crimson;
+}
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.sidebar ul a i {
-    margin-right: 15px;
-}
-
-#check{
-    display: none;
-}
-
-label #btn {
-    left: 40px;
-    top: 25px;
+.navbar .logo a {
+    color: #fff;
     font-size: 35px;
-    color: white;
-    padding-left: 6px 12px;
-    transition: all 0.5s;
-    position: absolute;
-    cursor: pointer;
-    border-radius: 3px;
+    font-weight: 600;
 }
 
-label #cancel {
-    z-index: 1111;
-    left: -195px;    
-    top: 17px;
-    font-size: 30px;
-    color: wheat;
-    padding: 4px 9px;
-    position: absolute;
-    cursor: pointer;
-    background: 063146;
-    border-radius: 3px;
+.navbar .logo a span {
+    color: crimson;
 }
 
-#check:checked ~ .sidebar{
-    left: 0; 
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li {
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: color 0.3s ease;
 }
 
-#check:checked ~ label #btn{
-    left: 250px;
-    opacity: 0;
-    pointer-events: none;
-}
-
-#check:checked ~ label #cancel{
-    left: 195px;
-}
-
-#check:checked ~section{
-    margin-left: 250px;
+.navbar .menu li a:hover {
+    color: crimson;
 }
 
 .home {
     display: flex;
-    background: url(../images/background.jpg) no-repeat center;
-    background-position: center;
-    background-size: 100%;
+    /* background: url("../images/back_ground.jpg") no-repeat center;
+    background-size: 100%; */
+    background-color: black;
     height: 100vh;
     color: white;
     min-height: 500px;
@@ -108,8 +71,7 @@ label #cancel {
 }
 
 .home .max-width {
-    margin: auto;
-    color: lavender;
+    margin: auto 0 auto 40px;
 }
 
 .home .home-content .text-1 {
@@ -128,6 +90,12 @@ label #cancel {
 }
 
 .home .home-content .text-3 span {
-    color: blue;
+    color: crimson;
     font-weight: 500;
+} 
+
+.about {
+    display: flex;
+    background-color: #5b78c7;
+    height: 60vh;
 }

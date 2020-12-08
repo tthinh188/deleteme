@@ -102,6 +102,24 @@
     font-weight: 500;
 } 
 
+.home .home-content a {
+    display: inline-block;
+    background-color: crimson;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 12px 36px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: 0.5s;
+}
+
+.home .home-content a:hover {
+    transform: translate(-8px);
+    color: #fff;
+    background: none;
+}
+    
 .about {
     display: flex;
     background: url("../images/work2.jpg") no-repeat top;
@@ -180,6 +198,7 @@
     .navbar .menu.active{
         left: 0;
     }
+
     .navbar .menu li {
         display: block;
     }
@@ -204,6 +223,7 @@
         font-size: 35px;
         margin: 5px 0;   
     }
+
 }
 
 @media (max-width: 500px){

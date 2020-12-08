@@ -117,7 +117,7 @@
     }
 } */
 
-@media (.max-width: 390px){
+@media (max-width: 390px){
     .home .home-content .text-1 {
         font-size: 15px;   
     }

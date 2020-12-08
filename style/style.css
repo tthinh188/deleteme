@@ -187,6 +187,47 @@
         border: 2px solid crimson;
         transition: 0.5s;
     }
+
+    .about {
+        display: flex;
+        background: url("../images/work2.jpg") no-repeat top;
+        background-size: 100%;
+        background-color: black;
+        min-height: 500px;
+        height: 50vh;
+    }
+    
+    .skills {
+        min-height: 375px;
+        height: 50vh;
+    }
+    
+    .projects {
+        min-height: 375px;
+        height: 50vh;
+    }
+    
+    .contact {       
+        min-height: 375px;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 500px){
+    .home .home-content .text-1 {
+        font-size: 20px;   
+    }
+
+    .home .home-content .text-2 {
+        font-size: 46px;
+        font-weight: 600;
+        margin-left: -3px;   
+    }
+    
+    .home .home-content .text-3 {
+        font-size: 36px;
+        margin: 5px 0;   
+    }
 }
 
 @media (max-width: 900px){
@@ -244,21 +285,4 @@
         margin: 5px 0;   
     }
 
-}
-
-@media (max-width: 500px){
-    .home .home-content .text-1 {
-        font-size: 20px;   
-    }
-
-    .home .home-content .text-2 {
-        font-size: 46px;
-        font-weight: 600;
-        margin-left: -3px;   
-    }
-    
-    .home .home-content .text-3 {
-        font-size: 36px;
-        margin: 5px 0;   
-    }
 }

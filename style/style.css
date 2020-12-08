@@ -187,28 +187,6 @@
         border: 2px solid crimson;
         transition: 0.5s;
     }
-
-    .about {
-        min-height: 150px;
-        height: 50vh;
-        background: #fff;
-    }
-    
-    .skills {
-        min-height: 150px;
-        height: 50vh;
-        background: #fff;
-    }
-    
-    .projects {
-        min-height: 150px;
-        height: 50vh;
-    }
-    
-    .contact {       
-        min-height: 150px;
-        height: 50vh;
-    }
 }
 
 @media (max-width: 500px){

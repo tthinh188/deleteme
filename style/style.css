@@ -119,15 +119,18 @@
 
 @media (max-width: 390px){
     .home .home-content .text-1 {
-        font-size: 15px;   
+        font-size: 15px;
+        margin-left: - 20px;
     }
     
     .home .home-content .text-2 {
         font-size: 40px;
+        margin-left: - 20px;
     }
     
     .home .home-content .text-3 {
         font-size: 23px;
+        margin-left: - 20px;
     }
 }
 

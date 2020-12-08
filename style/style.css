@@ -189,26 +189,22 @@
     }
 
     .about {
-        display: flex;
-        background: url("../images/work2.jpg") no-repeat top;
-        background-size: 100%;
-        background-color: black;
-        min-height: 500px;
+        min-height: 150px;
         height: 50vh;
     }
     
     .skills {
-        min-height: 375px;
+        min-height: 150px;
         height: 50vh;
     }
     
     .projects {
-        min-height: 375px;
+        min-height: 150px;
         height: 50vh;
     }
     
     .contact {       
-        min-height: 375px;
+        min-height: 150px;
         height: 50vh;
     }
 }

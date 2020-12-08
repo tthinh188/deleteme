@@ -117,14 +117,15 @@
     }
 } */
 
-@media (.max-width: 690px){
+@media (.max-width: 390px){
     .home .home-content .text-1 {
-        font-size: 20px;   
+        font-size: 15px;   
     }
+    
     .home .home-content .text-2 {
-        font-size: 45px;
- 
+        font-size: 40px;
     }
+    
     .home .home-content .text-3 {
         font-size: 23px;
     }

@@ -162,17 +162,17 @@
     } 
 
     .home .home-content .text-1 {
-        font-size: 18px;   
+        font-size: 16px;   
     }
 
     .home .home-content .text-2 {
-        font-size: 32px;
+        font-size: 28px;
         font-weight: 600;
         margin-left: -3px;   
     }
     
     .home .home-content .text-3 {
-        font-size: 22px;
+        font-size: 20px;
         margin: 5px 0;   
     }
 
@@ -180,9 +180,9 @@
         display: inline-block;
         background-color: crimson;
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 600;
-        padding: 10px 30px;
+        padding: 8px 26px;
         border-radius: 6px;
         border: 2px solid crimson;
         transition: 0.5s;

@@ -117,20 +117,10 @@
     }
 } */
 
-@media (max-width: 420px){
-    .home .home-content .text-1 {
-        font-size: 8px;
-        margin-left: -20px;
-    }
-    
-    .home .home-content .text-2 {
-        font-size: 8px;
-        margin-left: -20px;
-    }
-    
-    .home .home-content .text-3 {
-        font-size: 8px;
-        margin-left: -20px;
+@media (.max-width: 690px){
+    .max-width{
+        padding: 0 50px;
+        
     }
 }
 

@@ -15,6 +15,7 @@
 .navbar {
     position: fixed;
     width: 100%;
+    z-index: 999;
     padding: 15px 0;
     /* background: crimson; */
     font-family: 'Roboto', sans-serif;
@@ -119,17 +120,75 @@
     color: #fff;
     background: none;
 }
-    
-.about {
-    display: flex;
-    background: url("../images/work2.jpg") no-repeat top;
-    background-size: 100%;
-    background-color: black;
-    min-height: 500px;
-    height: 50vh;
+
+section{
+    padding: 100px 0;
 }
 
-.skills {
+.about {
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.about .title::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    transform: translateX(-50%);
+}
+
+.about .title::after{
+    content: "Software Developer";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    font-size: 14px;
+    color: crimson;
+    padding: 5px;
+    background: #fff;
+    transform: translateX(-50%);
+}
+
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-content .left {
+    width: 45%;
+}
+
+.about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.about .about-content .right {
+    width: 55%;
+}
+
+.about .about-content .right p{
+    text-align: justify;
+    font-size: 22px;
+    padding-bottom: 30px;
+    margin-right: 100px;
+}
+/* .skills {
     display: flex;
     background: url("../images/work1.jpg") no-repeat top;
     background-size: 100%;
@@ -153,7 +212,7 @@
     background-size: 100%;
     background-color: black;
     min-height: 500px;
-    height: 50vh;
+    height: 50vh; */
 }
 
 @media (max-width: 360px){

@@ -321,6 +321,12 @@ section{
     transform: scale(1.05);
 }
 
+.projects li a{
+    color: lightblue;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
 button {
     display: inline-block;
     background-color: whitesmoke;

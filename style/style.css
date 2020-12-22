@@ -430,7 +430,7 @@ button:hover {
 
 @media (max-width: 900px){
     .max-width{
-        padding: 0 50px;
+        padding: 0 15px;
     }
 
     .menu-btn{
@@ -528,8 +528,12 @@ button:hover {
         background: grey;
         transform: translateX(-50%);
     }
-
+    
+    .projects .project-content{
+        margin-left: 0;
+    }
     .projects .max-width .project-content .card{
         width: 100%;
     }
+
 }

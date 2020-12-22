@@ -522,4 +522,8 @@ button:hover {
         background: grey;
         transform: translateX(-50%);
     }
+
+    .projects .max-width .project-content .card{
+        width: 100%;
+    }
 }

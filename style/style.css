@@ -511,14 +511,15 @@ button:hover {
         margin: auto;
     }
 
-    .skills .title::before{
-        content: "";
+    .about .title::after{
+        content: "Software Developer";
         position: absolute;
-        bottom: 0px;
+        bottom: -10px;
         left: 50%;
-        width: 150px;
-        height: 2px;
-        background: white;
+        font-size: 14px;
+        color: darkblue;
+        padding: 4px;
+        background: grey;
         transform: translateX(-50%);
     }
 }

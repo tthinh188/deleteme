@@ -536,4 +536,7 @@ button:hover {
         width: 100%;
     }
 
+    .contact .icons li a {
+        padding-top: 30px;
+    }
 }

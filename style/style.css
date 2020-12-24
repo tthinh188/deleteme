@@ -378,6 +378,14 @@ button:hover {
 .contact .icons li a:hover {
     color: gold;
 }
+
+.contact .text {
+    color: lightblue;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
 @media (max-width: 360px){
     .home .max-width{
         margin-left: 0;

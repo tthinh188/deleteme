@@ -2,7 +2,7 @@ $(document).ready(function(){
     
     // scroll change color
     $(window).scroll(function(){
-        if(this.scrollY > 20) {
+        if(this.scrollY > 20 || this.scrollY < 0) {
             $('.navbar').addClass("sticky");
         }
         else {

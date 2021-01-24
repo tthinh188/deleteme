@@ -132,8 +132,7 @@ section{
 
 .about {
     font-family: 'Poppins', sans-serif;
-    /* background-color: grey; */
-    background: linear-gradient(135deg, #71b7e6, yellow);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 
 }
 
@@ -212,16 +211,15 @@ section{
 }
 
 .about .about-content .right a:hover {
-    transform: translate(-8px);
+    transform: translate(-5px);
     color: darkblue;
-    background: none;
+    background: transparent;
 }
 
 /* design skills section */
 
 .skills {
     font-family: 'Poppins', sans-serif;
-    /* background-color: cadetblue; */
     background: linear-gradient(135deg, #71b7e6, cadetblue);
 
 }
@@ -270,8 +268,7 @@ section{
 
 .projects {
     font-family: 'Poppins', sans-serif;
-    /* background-color: rgb(118, 95, 160); */
-    background: linear-gradient(135deg, #71b7e6, yellow);
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
     color: black;
 }
 
@@ -354,13 +351,12 @@ button:hover {
     box-shadow: 0 2px 2px 0 white;
     color: #fff;
 }
+
 /* design contact section */
 
 .contact {
     font-family: 'Poppins', sans-serif;
-    /* background-color: #1d242a; */
     background: linear-gradient(135deg, #1d242a, #71b7e6);
-
     color: white;
 }
 
@@ -399,6 +395,7 @@ button:hover {
     text-align: center;
     padding-bottom: 50px;
 }
+
 @media (max-width: 360px){
     .home .max-width{
         margin-left: 0;
